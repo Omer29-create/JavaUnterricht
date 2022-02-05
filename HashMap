@@ -31,3 +31,9 @@ for (String i : capitalCities.keySet()) {
 for (String i : capitalCities.values()) {
   System.out.println(i);
 }
+
+
+// Print keys and values
+for (String i : capitalCities.keySet()) {
+  System.out.println("key: " + i + " value: " + capitalCities.get(i));
+}
