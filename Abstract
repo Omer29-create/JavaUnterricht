@@ -4,3 +4,6 @@ abstract class Animal {
     System.out.println("Zzz");
   }
 }
+
+
+Animal myObj = new Animal(); // will generate an error
