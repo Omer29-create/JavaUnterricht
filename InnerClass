@@ -1,7 +1,7 @@
 class OuterClass {
   int x = 10;
 
-  class InnerClass {
+  class InnerClass {  // private olsa ulasilamiyor, static olursa ulasilabiliyor
     int y = 5;
   }
 }
