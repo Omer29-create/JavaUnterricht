@@ -12,4 +12,5 @@ public class Main {
 }
 
 
-cars.get(0); //Volvo
+cars.get(0); // Volvo
+cars.set(0, "Opel");  // new 0 : Volvo
