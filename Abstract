@@ -7,3 +7,31 @@ abstract class Animal {
 
 
 Animal myObj = new Animal(); // will generate an error
+
+
+
+// Abstract class
+abstract class Animal {
+  // Abstract method (does not have a body)
+  public abstract void animalSound();
+  // Regular method
+  public void sleep() {
+    System.out.println("Zzz");
+  }
+}
+
+// Subclass (inherit from Animal)
+class Dog extends Animal {
+  public void animalSound() {
+    // The body of animalSound() is provided here
+    System.out.println("The dog says: wee wee");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Pig myDog = new Dog(); // Create a Dog object
+    myDog.animalSound();
+    myDog.sleep();
+  }
+}
