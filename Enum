@@ -29,3 +29,22 @@ for (Level myVar : Level.values()) {
 /* LOW,
    MEDIUM,
    HIGH */
+
+
+
+// Time meselesi
+import java.time.LocalDateTime; // Import the LocalDateTime class
+import java.time.format.DateTimeFormatter; // Import the DateTimeFormatter class
+
+public class Main {
+  public static void main(String[] args) {
+    LocalDateTime myDateObj = LocalDateTime.now();
+    System.out.println("Before formatting: " + myDateObj);
+    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+
+    String formattedDate = myDateObj.format(myFormatObj);
+    System.out.println("After formatting: " + formattedDate);
+  }
+}
+/* Before Formatting: 2022-02-05T21:14:13.890890
+   After Formatting: 05-02-2022 21:14:13 */
