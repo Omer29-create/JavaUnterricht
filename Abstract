@@ -30,7 +30,7 @@ class Dog extends Animal {
 
 class Main {
   public static void main(String[] args) {
-    Pig myDog = new Dog(); // Create a Dog object
+    Dog myDog = new Dog(); // Create a Dog object
     myDog.animalSound();
     myDog.sleep();
   }
