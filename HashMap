@@ -19,3 +19,9 @@ capitalCities.get("England"); // London
 capitalCities.remove("England");
 capitalCities.clear();
 capitalCities.size();
+
+
+// Print keys
+for (String i : capitalCities.keySet()) {
+  System.out.println(i);
+}
