@@ -17,3 +17,4 @@ public class Main {
 
 capitalCities.get("England"); // London
 capitalCities.remove("England");
+capitalCities.clear();
