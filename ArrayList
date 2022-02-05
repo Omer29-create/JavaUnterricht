@@ -10,3 +10,6 @@ public class Main {
     System.out.println(cars);
   }
 }
+
+
+cars.get(0); //Volvo
