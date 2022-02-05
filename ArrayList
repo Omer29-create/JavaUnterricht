@@ -17,3 +17,17 @@ cars.set(0, "Opel");  // new 0 : Volvo
 cars.remove(0);   // 0. elemani siler
 cars.clear();  // hepsini siler
 cars.size();  // length'ini verir
+
+
+public class Main {
+  public static void main(String[] args) {
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    for (String i : cars) {
+      System.out.println(i);
+    }
+  }
+}
