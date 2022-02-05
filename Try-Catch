@@ -5,7 +5,10 @@ public class Main {
       System.out.println(myNumbers[10]);
     } catch (Exception e) {
       System.out.println("Something went wrong.");
+    } finally {
+      System.out.println("The 'try catch' is finished.");
     }
   }
 }
 // Something went wrong.
+// The 'try catch' is finished.
