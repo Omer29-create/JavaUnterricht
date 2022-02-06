@@ -1,12 +1,13 @@
 import java.io.File; 
 import java.io.IOException;
 
-public class CreateFile {  
+public class CreateFileDir {  
   public static void main(String[] args) {  
     try {  
-      File myObj = new File("filename.txt");  
+      File myObj = new File("C:\\Users\\MyName\\filename.txt");  
       if (myObj.createNewFile()) {  
         System.out.println("File created: " + myObj.getName());  
+        System.out.println("Absolute path: " + myObj.getAbsolutePath());  
       } else {  
         System.out.println("File already exists.");  
       }  
@@ -17,3 +18,4 @@ public class CreateFile {
   }  
 } 
 // File created: filename.txt
+// Absolute path: C:\Users\MyName\filename.txt
