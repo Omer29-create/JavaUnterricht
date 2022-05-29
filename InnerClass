@@ -17,7 +17,6 @@ public class Main {
 // Outputs 15 (5 + 10)
 
 
-
 class OuterClass {
   int x = 10;
 
